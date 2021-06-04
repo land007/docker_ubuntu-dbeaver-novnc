@@ -9,7 +9,7 @@ You can add the PASSWORD=1 parameter, the remote display opens the following add
 docker run -itd -p 6080:6080 -e PASSWORD=1 -e SUDO=yes –name zc004 land007/ubuntu-dbeaver-novnc:latest
 ```
 
-![image](https://github.com/land007/docker_ubuntu-dbeaver-novnc/raw/master/20210604170156.png)
+![image](https://github.com/land007/docker_ubuntu-dbeaver-novnc/raw/main/20210604170156.png)
 
 If you do not add the PASSWORD=1 parameter, the system will automatically assign a password.
 
