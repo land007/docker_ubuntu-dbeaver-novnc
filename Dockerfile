@@ -5,7 +5,7 @@ MAINTAINER Yiqiu Jia <yiqiujia@hotmail.com>
 # Install Java.
 RUN \
   apt-get update && \
-  apt-get install -y openjdk-9-jdk
+  apt-get -o Dpkg::Options::="--force-overwrite" install -y openjdk-9-jdk
 
 # Define commonly used JAVA_HOME variable
 #ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
